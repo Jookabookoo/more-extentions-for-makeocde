@@ -1,0 +1,30 @@
+{
+    "name": "More Extentions for Makeocde",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "block-menu": "github:riknoll/arcade-custom-menu#v0.0.1",
+        "arcade-block-objects": "github:microsoft/arcade-block-objects#f486ac1d4dcc096b9297174f97f8cdef1576c7ff",
+        "arcade-split-screen": "github:riknoll/arcade-split-screen#v0.0.3",
+        "pxt-lantern": "github:felixtsu/pxt-lantern#v0.2.1",
+        "FastRandomBlocks": "github:UnsignedArduino/Fast-Random-Blocks#8c985a77e5c4278e43a7bc375db095c67afb58ed",
+        "Notifications": "github:UnsignedArduino/Notifications#de6517dcc280cafe902ef212f59d4f55a982c7ec"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "2.0.59",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
